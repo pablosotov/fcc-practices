@@ -1,0 +1,25 @@
+body {
+  background: #333;
+  color:#FFF;
+}
+
+.icon-weather {
+  border: 1px #ccc solid;
+  border-radius: 10px;
+  display:block;
+  height: 180px;
+  width: 180px;
+  margin:auto;
+}
+.Sun {
+  background: url("https://cdn.dribbble.com/users/340460/screenshots/2046488/weather-icons.gif") -60px -30px;
+}
+.Rain {
+  background: url("https://cdn.dribbble.com/users/340460/screenshots/2046488/weather-icons.gif") -60px -220px;
+}
+.Lightning {
+  background: url("https://cdn.dribbble.com/users/340460/screenshots/2046488/weather-icons.gif") -60px -280px;
+}
+.Clouds {
+  background: url("https://cdn.dribbble.com/users/340460/screenshots/2046488/weather-icons.gif") -560px -295px;
+}
