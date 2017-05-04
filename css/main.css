@@ -1,25 +1,37 @@
 body {
-  background: #333;
+  background: #333 url("http://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Background.jpg") no-repeat center center fixed;
+   background-size: cover!important;
   color:#FFF;
 }
 
-.icon-weather {
+.trBG {
+   background: #000;
+    opacity: 0.5;
+   filter: alpha(opacity=50); /* For IE8 and earlier */   
+   border-radius: 15px;
+   padding:3% 0;
+}
+
+.weather-icon {
   border: 1px #ccc solid;
   border-radius: 10px;
-  display:block;
-  height: 180px;
-  width: 180px;
-  margin:auto;
+  margin: auto;
+  height: 100p;
+  padding: 20px;
+  width: 120px;
+  font-size: 48px;
+  text-align:center;
 }
-.Sun {
-  background: url("https://cdn.dribbble.com/users/340460/screenshots/2046488/weather-icons.gif") -60px -30px;
+.weather-desc { font-size: 1em; text-align: center;}
+
+#time, #temperature {
+   font-family: 'Expletus Sans', sans-serif; /*google fonts*/
+   font-size: 3em;
 }
-.Rain {
-  background: url("https://cdn.dribbble.com/users/340460/screenshots/2046488/weather-icons.gif") -60px -220px;
-}
-.Lightning {
-  background: url("https://cdn.dribbble.com/users/340460/screenshots/2046488/weather-icons.gif") -60px -280px;
-}
-.Clouds {
-  background: url("https://cdn.dribbble.com/users/340460/screenshots/2046488/weather-icons.gif") -560px -295px;
+
+.myButton,.myButton:active {
+   background: none;
+   border: none;
+   color: #4E82B5; /*#B56F4E*/
+   outline:none;
 }
